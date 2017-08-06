@@ -1,0 +1,53 @@
+body {
+  background-color: #c4c0bc;
+  text-align: center; }
+
+.clearFix {
+  height: 20px; }
+
+.recipeContainer {
+  background-color: #45a540;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px; }
+  .recipeContainer h4 {
+    margin-top: 10px; }
+  .recipeContainer:hover {
+    cursor: pointer; }
+
+.box {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px; }
+
+.addRecipe {
+  margin-top: 10px;
+  margin-bottom: 30px; }
+
+.ingredient {
+  display: none; }
+
+.ingredientList {
+  margin-top: 25px;
+  margin-bottom: 30px; }
+
+.currentIngredient {
+  background-color: white;
+  margin-bottom: 20px; }
+
+.modalLabel {
+  text-align: left;
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: bold; }
+
+#btnDelete {
+  margin-left: 75%; }
+
+#btnEdit {
+  margin-right: 75%; }
+
+/*# sourceMappingURL=stylesheet.css.map */
